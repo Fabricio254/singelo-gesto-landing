@@ -308,6 +308,24 @@ h2 { font-size: clamp(2rem, 3.6vw, 3.4rem); }
   flex-shrink: 0;
 }
 .button-light:hover { background: #f4eddf; }
+.portfolio {
+  border-top: 1px solid var(--line);
+  padding-bottom: 112px;
+  padding-top: 56px;
+}
+.portfolio-heading {
+  max-width: 700px;
+  margin-bottom: 56px;
+}
+.portfolio-category {
+  margin-bottom: 80px;
+}
+.portfolio-category h3 {
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 1.8rem;
+  font-weight: 500;
+  margin: 0 0 28px 0;
+}
 .site-footer {
   align-items: center;
   color: var(--muted);
@@ -404,6 +422,12 @@ h2 { font-size: clamp(2rem, 3.6vw, 3.4rem); }
     gap: 28px;
     padding-bottom: 64px;
     padding-top: 64px;
+  }
+  .portfolio-category {
+    margin-bottom: 56px;
+  }
+  .portfolio-category h3 {
+    font-size: 1.4rem;
   }
   .site-footer {
     align-items: flex-start;
