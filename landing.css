@@ -156,6 +156,19 @@ h2 { font-size: clamp(2rem, 3.6vw, 3.4rem); }
   margin: 0;
   max-width: 410px;
 }
+.seo-terms {
+  border-top: 1px solid var(--line);
+  display: grid;
+  gap: 48px;
+  grid-template-columns: minmax(0, .9fr) minmax(280px, 1fr);
+  padding-bottom: 64px;
+  padding-top: 56px;
+}
+.seo-terms p:last-child {
+  color: var(--muted);
+  line-height: 1.8;
+  margin: 0;
+}
 .gallery {
   border-top: 1px solid var(--line);
   padding-bottom: 112px;
@@ -382,6 +395,7 @@ h2 { font-size: clamp(2rem, 3.6vw, 3.4rem); }
     padding-top: 76px;
   }
   .intro > p { margin-top: 24px; }
+  .seo-terms { gap: 24px; }
   .photo-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
   .photo-card.featured { grid-column: span 2; }
   .benefits {
