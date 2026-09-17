@@ -18,25 +18,23 @@
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
-    "@type": "Store",
-    "name": "Singelo Gesto",
+    "@type": "CollectionPage",
+    "name": "Catalogo Singelo Gesto",
     "url": "https://www.singelogesto.com.br/catalogo/",
-    "description": "Cestas de cafe da manha, cestas personalizadas e presentes personalizados para aniversario, maternidade, casamento, datas especiais e presentes romanticos na Grande Vitoria.",
-    "telephone": "+5527998622049",
-    "areaServed": ["Vila Velha", "Vitoria", "Cariacica", "Serra", "Grande Vitoria"],
-    "makesOffer": [
-      {"@type": "Offer", "itemOffered": {"@type": "Product", "name": "Cesta de cafe da manha personalizada"}},
-      {"@type": "Offer", "itemOffered": {"@type": "Product", "name": "Cesta de aniversario"}},
-      {"@type": "Offer", "itemOffered": {"@type": "Product", "name": "Presente personalizado"}},
-      {"@type": "Offer", "itemOffered": {"@type": "Product", "name": "Cesta maternidade"}}
+    "description": "Catalogo de cestas de cafe da manha, cestas de presente, cesta de aniversario e presentes personalizados.",
+    "isPartOf": {
+      "@type": "WebSite",
+      "name": "Singelo Gesto",
+      "url": "https://www.singelogesto.com.br/"
+    },
+    "about": [
+      "cesta de cafe da manha",
+      "cestas de presente",
+      "cesta de aniversario",
+      "cestas personalizadas",
+      "presente personalizado"
     ],
-    "contactPoint": {
-      "@type": "ContactPoint",
-      "telephone": "+5527998622049",
-      "contactType": "customer service",
-      "areaServed": "BR-ES",
-      "availableLanguage": "Portuguese"
-    }
+    "areaServed": ["Vila Velha", "Vitoria", "Cariacica", "Serra"]
   }
   </script>
   <link rel="stylesheet" href="styles.css">
@@ -59,6 +57,27 @@
         <p>Cestas de cafe da manha, cestas de presente e presentes personalizados para aniversario, maternidade, casamento e datas especiais. Selecione uma ocasiao e fale conosco pelo WhatsApp.</p>
       </div>
     </section>
+    <section class="static-products" aria-labelledby="static-products-title">
+      <h2 id="static-products-title">Categorias mais procuradas</h2>
+      <div class="static-grid">
+        <article>
+          <h3>Cesta de cafe da manha</h3>
+          <p>Cestas de cafe da manha personalizadas para aniversario, casamento, maternidade, homenagem e datas especiais.</p>
+        </article>
+        <article>
+          <h3>Cesta de aniversario</h3>
+          <p>Cesta de aniversario para amiga, para homem, para mae e para pessoas especiais, com doces, flores e personalizacao.</p>
+        </article>
+        <article>
+          <h3>Cestas de presente</h3>
+          <p>Cestas de presente e box de luxo para surpreender com carinho em Vila Velha, Vitoria, Cariacica e Serra.</p>
+        </article>
+        <article>
+          <h3>Presentes personalizados</h3>
+          <p>Presente personalizado com caneca, balao, fotos, chocolates, flores e composicoes artesanais da Singelo Gesto.</p>
+        </article>
+      </div>
+    </section>
     <nav class="filters" aria-label="Categorias do catalogo">
       <button class="filter active" data-category="Todas">Todas</button>
       <button class="filter" data-category="Aniversario">Aniversario</button>
@@ -70,6 +89,11 @@
     </nav>
     <section class="status" id="status" role="status">Carregando catalogo...</section>
     <section class="grid" id="products" aria-live="polite"></section>
+    <noscript>
+      <section class="status">
+        Para ver o catalogo completo, habilite o JavaScript ou fale com a Singelo Gesto pelo WhatsApp: (27) 99862-2049.
+      </section>
+    </noscript>
     <section class="seo-copy" aria-labelledby="seo-title">
       <h2 id="seo-title">Cestas e presentes personalizados na Grande Vitoria</h2>
       <p>A Singelo Gesto prepara cestas de cafe da manha, cestas personalizadas, cestas de presente e presentes criativos para momentos especiais. O catalogo inclui opcoes para aniversario, presente para mae, presente para amiga, cesta maternidade, casamento, noivado, formatura, Dia das Maes, Dia dos Pais, Dia dos Namorados e outras datas especiais.</p>
